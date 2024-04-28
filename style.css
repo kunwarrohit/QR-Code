@@ -1,0 +1,32 @@
+h1,
+h3 {
+    color: rgb(176, 51, 204);
+
+}
+
+body,
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:50vh;
+    width:100%;
+    /* border: 1px solid red ;; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}
+#qrcode{
+    width: 15rem;
+    height: 2rem;
+    font-size: 20px;
+}
+.btn{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+}
